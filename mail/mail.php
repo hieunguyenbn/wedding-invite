@@ -16,9 +16,9 @@ $error = array();
 if(empty($error))
 { 
 $mail =
-mail("alankarrocks@mail.com", "$title", $message,
- "From: alankarrocks@mail.com\r\n"
-."Reply-To: alankarrocks@mail.com\r\n"
+mail("hieunguyen95bn@gmail.com", "$title", $message,
+ "From: hieunguyen95bn@gmail.com\r\n"
+."Reply-To: hieunguyen95bn@gmail.com\r\n"
 ."Content-type:text/plain;charset=utf-8\r\n"
 ."X-Mailer: PHP/" . phpversion());
 
